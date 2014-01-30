@@ -16,5 +16,9 @@
     "es",
     "elasticsearch"
   ],
-  "license": "mit"
+  "license": "mit",
+  "devDependencies": {
+    "should": "~3.1.2",
+    "mocha": "~1.17.1"
+  }
 }
