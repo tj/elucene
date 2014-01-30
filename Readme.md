@@ -1,7 +1,7 @@
 
 # elucene
 
- Extended Lucene query syntax, adding __LIMIT__, __FIELDS__, and __SORT__.
+ Extended Lucene query syntax adding __LIMIT__, __FIELDS__, and __SORT__.
 
 ## Installation
 
