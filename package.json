@@ -1,6 +1,6 @@
 {
   "name": "elucene",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "visionmedia/node-elucene",
   "description": "extended lucene query syntax with sorting, field selection, limits etc",
   "main": "index.js",
