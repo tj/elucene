@@ -19,6 +19,15 @@ describe('parse(str)', function(){
     });
   })
 
+  it('should alias FIELDS as SELECT', function(){
+    var query = 'level:error SELECT message';
+
+    parse(query).should.eql({
+      string: 'level:error',
+      fields: ['message']
+    });
+  })
+
   it('should support SORT', function(){
     var query = 'level:error SORT timestamp:asc';
 
