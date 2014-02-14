@@ -4,7 +4,8 @@
  */
 
 var aliases = {
-  select: 'fields'
+  select: 'fields',
+  only: 'fields'
 };
 
 /**
@@ -23,7 +24,7 @@ module.exports = parse;
 
 function parse(str) {
   var query = {};
-  var parts = str.split(/\s*(FIELDS|SELECT|LIMIT|SORT)\s*/);
+  var parts = str.split(/\s*(FIELDS|SELECT|ONLY|LIMIT|SORT)\s*/);
 
   query.string = parts.shift();
 

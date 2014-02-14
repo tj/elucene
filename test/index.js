@@ -19,8 +19,17 @@ describe('parse(str)', function(){
     });
   })
 
-  it('should alias FIELDS as SELECT', function(){
+  it('should alias SELECT as FIELDS', function(){
     var query = 'level:error SELECT message';
+
+    parse(query).should.eql({
+      string: 'level:error',
+      fields: ['message']
+    });
+  })
+
+  it('should alias ONLY as FIELDS', function(){
+    var query = 'level:error ONLY message';
 
     parse(query).should.eql({
       string: 'level:error',
