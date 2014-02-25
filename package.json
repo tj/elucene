@@ -1,6 +1,6 @@
 {
   "name": "elucene",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": "visionmedia/elucene",
   "description": "extended lucene query syntax with sorting, field selection, limits etc",
   "main": "index.js",
@@ -21,7 +21,5 @@
     "should": "~3.1.2",
     "mocha": "~1.17.1"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
