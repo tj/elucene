@@ -20,5 +20,8 @@
   "devDependencies": {
     "should": "~3.1.2",
     "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "date.js": "~0.2.0"
   }
 }
